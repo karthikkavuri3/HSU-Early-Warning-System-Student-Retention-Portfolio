@@ -1,0 +1,1045 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HSU Early Warning System - Student Retention Dashboard</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800&family=Open+Sans:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="logo">HSU EARLY WARNING SYSTEM</div>
+            <ul class="nav-menu">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#executive">Summary</a></li>
+                <li><a href="#charter">Charter</a></li>
+                <li><a href="#problem">Problem</a></li>
+                <li><a href="#research">Research</a></li>
+                <li><a href="#solution">Solution</a></li>
+                <li><a href="#data">Data</a></li>
+                <li><a href="#performance">Performance</a></li>
+                <li><a href="#dashboard">Dashboard</a></li>
+                <li><a href="#analytics">Analytics</a></li>
+                <li><a href="#ethics">Ethics</a></li>
+                <li><a href="#results">Results</a></li>
+                <li><a href="#team">Team</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- PAGE 1: HERO SECTION -->
+    <section id="home" class="hero">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <h1 class="hero-title">HSU EARLY WARNING SYSTEM</h1>
+            <p class="hero-subtitle">Data-Driven Student Retention Dashboard</p>
+            <p class="hero-tagline">"Predicting Risk. Enabling Success. Transforming Lives."</p>
+            <div class="hero-stats">
+                <div class="hero-stat">📊 94.33% Accuracy</div>
+                <div class="hero-stat">👥 10,000 Students</div>
+                <div class="hero-stat">🎯 69 Features</div>
+                <div class="hero-stat">📂 4 Data Sources</div>
+            </div>
+            <div class="hero-buttons">
+                <a href="https://hsu-early-warning-system-student-retention-88dlnqbmp2cvxnnjcvy.streamlit.app/" target="_blank" class="btn btn-primary">View Live Dashboard</a>
+                <a href="#executive" class="btn btn-secondary">Executive Summary</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Quick Stats Grid -->
+    <section class="quick-stats">
+        <div class="container">
+            <div class="stats-grid">
+                <div class="stat-card problem-card">
+                    <h3>THE PROBLEM</h3>
+                    <ul>
+                        <li><strong>25%</strong> Global Dropout Rate</li>
+                        <li><strong>22.7%</strong> HSU Baseline</li>
+                        <li><strong>$X Million</strong> Annual Loss</li>
+                    </ul>
+                </div>
+                <div class="stat-card solution-card">
+                    <h3>OUR SOLUTION</h3>
+                    <ul>
+                        <li><strong>94.33%</strong> Prediction Accuracy</li>
+                        <li><strong>Week 2-3</strong> Early Detection</li>
+                        <li><strong>87%</strong> Intervention Success</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Team Intro -->
+    <section class="team-intro">
+        <div class="container">
+            <h2 class="section-title">"Meet the Team Behind Innovation"</h2>
+            <div class="team-intro-image">
+                <img src="Images/Team Group photo.png" alt="HSU Early Warning System Team" class="team-photo">
+            </div>
+            <p class="team-intro-text">5 graduate students • Aug-Nov 2025 • Data-driven student success</p>
+        </div>
+    </section>
+
+    <!-- PAGE 2: EXECUTIVE SUMMARY -->
+    <section id="executive" class="executive-summary">
+        <div class="container">
+            <div class="summary-card">
+                <h2 class="section-title">94.33% Accurate Student Retention Prediction</h2>
+                <p class="lead-text">
+                    Transforms reactive advising into proactive student success. AI-powered dashboard integrates 
+                    academic, engagement, financial, and wellness data to catch at-risk students by Week 2—when 
+                    intervention is most effective.
+                </p>
+                
+                <div class="metrics-grid-4">
+                    <div class="metric-card">
+                        <div class="metric-value">94.33%</div>
+                        <div class="metric-label">Model Accuracy</div>
+                    </div>
+                    <div class="metric-card">
+                        <div class="metric-value">93.20%</div>
+                        <div class="metric-label">AUC-ROC</div>
+                    </div>
+                    <div class="metric-card">
+                        <div class="metric-value">7,073</div>
+                        <div class="metric-label">Low Risk Students</div>
+                    </div>
+                    <div class="metric-card">
+                        <div class="metric-value">$2-3M</div>
+                        <div class="metric-label">Tuition Recovery</div>
+                    </div>
+                </div>
+
+                <div class="quick-facts">
+                    <h3>Quick Facts</h3>
+                    <ul>
+                        <li>✅ 10,000 synthetic records, 69 features</li>
+                        <li>✅ Live Streamlit dashboard (3 roles: Advisor/Student/Admin)</li>
+                        <li>✅ Ready for institutional pilot (Aug-Nov 2025 completed)</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- PAGE 3: PROJECT CHARTER -->
+    <section id="charter" class="charter">
+        <div class="container">
+            <h2 class="section-title">Project Charter - Scope & Governance</h2>
+            
+            <div class="charter-overview">
+                <h3>Project Overview</h3>
+                <div class="overview-grid">
+                    <div><strong>Name:</strong> HSU Early Warning System</div>
+                    <div><strong>Duration:</strong> Aug-Nov 2025</div>
+                    <div><strong>Team:</strong> 5 graduates</div>
+                    <div><strong>Sponsor:</strong> Harrisburg University</div>
+                    <div><strong>Deliverable:</strong> AI retention prediction system</div>
+                </div>
+            </div>
+
+            <div class="objectives-table">
+                <h3>Strategic Objectives</h3>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Objective</th>
+                            <th>Target ✅</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Accuracy</td>
+                            <td>94.33% (Target: &gt;90%) ✓</td>
+                        </tr>
+                        <tr>
+                            <td>Early Detection</td>
+                            <td>Week 2 Achieved ✓</td>
+                        </tr>
+                        <tr>
+                            <td>Dashboards</td>
+                            <td>3 roles Complete ✓</td>
+                        </tr>
+                        <tr>
+                            <td>Data Integration</td>
+                            <td>4 sources, 69 features ✓</td>
+                        </tr>
+                        <tr>
+                            <td>Explainability</td>
+                            <td>SHAP Integrated ✓</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <div class="team-structure">
+                <h3>Team Structure</h3>
+                <div class="team-roles">
+                    <div class="role-card">
+                        <strong>Prajitha Kamasani</strong><br>Data Engineering
+                    </div>
+                    <div class="role-card">
+                        <strong>Tarun Elusu</strong><br>ML Modeling + SHAP
+                    </div>
+                    <div class="role-card">
+                        <strong>Karthik Kavuri</strong><br>Backend + Database
+                    </div>
+                    <div class="role-card">
+                        <strong>Divya Gaddam</strong><br>UI/UX Design
+                    </div>
+                    <div class="role-card">
+                        <strong>Saikrishna Oruganti</strong><br>Analytics + Validation
+                    </div>
+                </div>
+            </div>
+
+            <div class="timeline">
+                <h3>Development Timeline</h3>
+                <div class="timeline-items">
+                    <div class="timeline-item">
+                        <div class="timeline-marker">Aug</div>
+                        <div class="timeline-content">Problem Definition + Research</div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-marker">Sep</div>
+                        <div class="timeline-content">Data Architecture + Database Schema</div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-marker">Oct</div>
+                        <div class="timeline-content">ML Modeling + Dashboard Prototype</div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-marker">Nov</div>
+                        <div class="timeline-content">Analytics + Final Deployment</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- PAGE 4: PROBLEM OVERVIEW -->
+    <section id="problem" class="problem">
+        <div class="container">
+            <h2 class="section-title">Why This Matters: The Student Attrition Crisis</h2>
+            
+            <div class="problem-stats">
+                <div class="problem-stat">
+                    <div class="stat-icon">🔴</div>
+                    <div class="stat-text">1 in 4 students globally don't finish degree</div>
+                </div>
+                <div class="problem-stat">
+                    <div class="stat-icon">🔴</div>
+                    <div class="stat-text">22.7% HSU dropout rate (above national average)</div>
+                </div>
+                <div class="problem-stat">
+                    <div class="stat-icon">🔴</div>
+                    <div class="stat-text">Root cause: Siloed data + reactive systems</div>
+                </div>
+            </div>
+
+            <h3>4 Stakeholders Affected</h3>
+            <div class="stakeholders-grid">
+                <div class="stakeholder-card">
+                    <h4>Students</h4>
+                    <ul>
+                        <li>No early warning</li>
+                        <li>Struggle alone</li>
+                    </ul>
+                </div>
+                <div class="stakeholder-card">
+                    <h4>Advisors</h4>
+                    <ul>
+                        <li>200+ caseload</li>
+                        <li>React not prevent</li>
+                    </ul>
+                </div>
+                <div class="stakeholder-card">
+                    <h4>Admins</h4>
+                    <ul>
+                        <li>Fragmented data</li>
+                        <li>No trends</li>
+                    </ul>
+                </div>
+                <div class="stakeholder-card">
+                    <h4>Institution</h4>
+                    <ul>
+                        <li>Tuition loss</li>
+                        <li>Rankings impact</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="data-silos">
+                <h3>Data Silos Problem</h3>
+                <div class="silos-diagram">
+                    <div class="silo">Academic → Registrar</div>
+                    <div class="silo">Engagement → LMS</div>
+                    <div class="silo">Financial → Aid Office</div>
+                    <div class="silo">Wellness → Counseling</div>
+                </div>
+                <p class="result-text">RESULT: No integrated view = students slip through cracks</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- PAGE 5: RESEARCH & INSIGHTS -->
+    <section id="research" class="research">
+        <div class="container">
+            <h2 class="section-title">Backed by Data: Research Findings</h2>
+            
+            <div class="research-insights">
+                <h3>3 Key Research Insights</h3>
+                <div class="insight-card">
+                    <div class="insight-number">1️⃣</div>
+                    <div class="insight-content">
+                        <strong>ML Effectiveness:</strong> ML models achieve >90% accuracy in dropout prediction (Delena et al., 2025)
+                    </div>
+                </div>
+                <div class="insight-card">
+                    <div class="insight-number">2️⃣</div>
+                    <div class="insight-content">
+                        <strong>Explainability:</strong> SHAP transparency increases advisor trust and adoption (Afrin et al., 2025)
+                    </div>
+                </div>
+                <div class="insight-card">
+                    <div class="insight-number">3️⃣</div>
+                    <div class="insight-content">
+                        <strong>Top Predictors:</strong> Academic performance + Engagement + Financial stress = 3 strongest signals (Alazmi & Ayub, 2025)
+                    </div>
+                </div>
+            </div>
+
+            <div class="comparison-table">
+                <h3>Our System vs Traditional</h3>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Traditional Advising</th>
+                            <th>Our AI System</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>1-2 week delays</td>
+                            <td>Real-time alerts</td>
+                        </tr>
+                        <tr>
+                            <td>Manual data entry</td>
+                            <td>Automated pipeline</td>
+                        </tr>
+                        <tr>
+                            <td>No predictions</td>
+                            <td>94.33% accuracy</td>
+                        </tr>
+                        <tr>
+                            <td>No transparency</td>
+                            <td>SHAP explained</td>
+                        </tr>
+                        <tr>
+                            <td>One-size-fits-all</td>
+                            <td>Personalized</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+
+    <!-- PAGE 6: PROPOSED SOLUTION -->
+    <section id="solution" class="solution">
+        <div class="container">
+            <h2 class="section-title">Intelligent. Integrated. Actionable.</h2>
+            
+            <div class="approach">
+                <h3>Our 5-Point Approach</h3>
+                <ul class="approach-list">
+                    <li>✅ 4 data sources integrated (Academic/Engagement/Financial/Wellness)</li>
+                    <li>✅ Random Forest classifier: 94.33% accuracy</li>
+                    <li>✅ SHAP explainability for every prediction</li>
+                    <li>✅ Real-time dashboards for 3 user roles</li>
+                    <li>✅ Week 2-3 early detection window</li>
+                </ul>
+            </div>
+
+            <div class="architecture">
+                <h3>3-Layer Architecture</h3>
+                <div class="architecture-image">
+                    <img src="Images/Solution Architecture.png" alt="Solution Architecture" class="full-width-image">
+                </div>
+                <div class="architecture-layers">
+                    <div class="layer-card">
+                        <h4>Layer 1: DATA INPUT</h4>
+                        <p>4 institutional sources → 69 engineered features → 10K records</p>
+                    </div>
+                    <div class="layer-card">
+                        <h4>Layer 2: ANALYTICS ENGINE</h4>
+                        <p>Random Forest classification → SHAP explanation → Risk scoring</p>
+                    </div>
+                    <div class="layer-card">
+                        <h4>Layer 3: USER INTERFACE</h4>
+                        <p>Streamlit apps for Advisor/Student/Admin roles</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- PAGE 7: DATA ARCHITECTURE -->
+    <section id="data" class="data-architecture">
+        <div class="container">
+            <h2 class="section-title">Built on Research, Powered by Data</h2>
+            
+            <div class="data-pillars">
+                <h3>4 Data Pillars (69 Total Features)</h3>
+                <div class="pillars-grid">
+                    <div class="pillar-card">
+                        <h4>Academic (12)</h4>
+                        <p>GPA, grades, failures<br>Midterms, withdrawals</p>
+                    </div>
+                    <div class="pillar-card">
+                        <h4>Engagement (9)</h4>
+                        <p>LMS logins, attendance<br>Assignment timeliness</p>
+                    </div>
+                    <div class="pillar-card">
+                        <h4>Financial (9)</h4>
+                        <p>Balance, holds, aid<br>SAP status</p>
+                    </div>
+                    <div class="pillar-card">
+                        <h4>Wellness (5)</h4>
+                        <p>Counseling visits<br>Severity flags</p>
+                    </div>
+                    <div class="pillar-card">
+                        <h4>Demographics (9)</h4>
+                        <p>Class year, first-gen<br>International status</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="database-design">
+                <h3>Database Design</h3>
+                <div class="erd-image">
+                    <img src="Images/ERD.png" alt="Entity Relationship Diagram" class="full-width-image">
+                </div>
+                <div class="erd-description">
+                    <p><strong>Central Hub:</strong> STUDENTS (Primary Key: StudentID)</p>
+                    <ul>
+                        <li>├─ ENROLLMENTS → COURSES (Course details, credits, levels)</li>
+                        <li>├─ GRADES (Term GPA, assignments, performance)</li>
+                        <li>├─ ATTENDANCE (LMS login, class attendance)</li>
+                        <li>├─ PAYMENTS (Tuition balance, holds, financial aid)</li>
+                        <li>├─ COUNSELING (Visit dates, severity, crisis flags)</li>
+                        <li>└─ RISK_SCORES (ML predictions, categories, dates)</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="validation-rules">
+                <h3>Synthetic Data Validation Rules</h3>
+                <ul class="rules-list">
+                    <li>GPA &lt; 2.0 → 60% dropout risk (Alazmi & Ayub, 2025)</li>
+                    <li>Attendance &lt; 80% → Significant risk signal</li>
+                    <li>Balance &gt; $5K → 2.5x risk multiplier</li>
+                    <li>LMS &lt; 2/week → Disengagement flag</li>
+                </ul>
+            </div>
+
+            <div class="tech-stack">
+                <h3>Tech Stack</h3>
+                <div class="tech-image">
+                    <img src="Images/Tools and platform architectutre.png" alt="Technology Stack" class="full-width-image">
+                </div>
+                <div class="tech-details">
+                    <ul>
+                        <li><strong>Backend:</strong> Python 3.x, Pandas, NumPy, scikit-learn</li>
+                        <li><strong>Database:</strong> SQLite (prototype) → PostgreSQL (production)</li>
+                        <li><strong>Frontend:</strong> Streamlit (rapid dashboards)</li>
+                        <li><strong>ML Model:</strong> Random Forest classifier</li>
+                        <li><strong>Explainability:</strong> SHAP values per prediction</li>
+                        <li><strong>Hosting:</strong> Streamlit Cloud (demo), scalable to cloud DW</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- PAGE 8: MODEL PERFORMANCE -->
+    <section id="performance" class="performance">
+        <div class="container">
+            <h2 class="section-title">94.33% Accuracy Achieved</h2>
+            
+            <div class="performance-metrics">
+                <div class="perf-metric">
+                    <div class="perf-value">94.33%</div>
+                    <div class="perf-label">Accuracy</div>
+                    <div class="perf-desc">Overall model performance</div>
+                </div>
+                <div class="perf-metric">
+                    <div class="perf-value">93.20%</div>
+                    <div class="perf-label">AUC-ROC</div>
+                    <div class="perf-desc">Excellent discrimination on risk vs no-risk</div>
+                </div>
+                <div class="perf-metric">
+                    <div class="perf-value">77.42%</div>
+                    <div class="perf-label">Recall</div>
+                    <div class="perf-desc">Catches at-risk students effectively</div>
+                </div>
+                <div class="perf-metric">
+                    <div class="perf-value">0.89</div>
+                    <div class="perf-label">F1-Score</div>
+                    <div class="perf-desc">Balanced precision and recall</div>
+                </div>
+            </div>
+
+            <div class="confusion-matrix">
+                <h3>Confusion Matrix Analysis</h3>
+                <div class="matrix-images">
+                    <div class="matrix-img">
+                        <img src="Images/ML Algorithm Confusion matrix.png" alt="Confusion Matrix">
+                    </div>
+                </div>
+                <div class="matrix-breakdown">
+                    <h4>Matrix Breakdown:</h4>
+                    <ul>
+                        <li>✅ <strong>True Negatives: 1,151</strong> - Correctly identified retained students</li>
+                        <li>✅ <strong>True Positives: 264</strong> - Correctly identified at-risk students</li>
+                        <li>🔴 <strong>False Negatives: 77</strong> - Missed at-risk students (recall 77.42%)</li>
+                        <li>✅ <strong>False Positives: 8</strong> - Few false alarms</li>
+                        <li><strong>ROC-AUC: 0.9320</strong> = Excellent discrimination between classes</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="top-predictors">
+                <h3>Top 5 Risk Predictors</h3>
+                <div class="predictors-chart">
+                    <img src="Images/ML Algorithm graph chart.png" alt="Feature Importance Chart">
+                </div>
+                <div class="predictors-list">
+                    <div class="predictor-item">
+                        <div class="pred-number">1️⃣</div>
+                        <div class="pred-content">
+                            <strong>Cumulative GPA (22%)</strong> - Strongest academic signal
+                        </div>
+                    </div>
+                    <div class="predictor-item">
+                        <div class="pred-number">2️⃣</div>
+                        <div class="pred-content">
+                            <strong>LMS Logins (18%)</strong> - Weekly engagement indicator
+                        </div>
+                    </div>
+                    <div class="predictor-item">
+                        <div class="pred-number">3️⃣</div>
+                        <div class="pred-content">
+                            <strong>Attendance Rate (15%)</strong> - Class participation
+                        </div>
+                    </div>
+                    <div class="predictor-item">
+                        <div class="pred-number">4️⃣</div>
+                        <div class="pred-content">
+                            <strong>Tuition Balance (12%)</strong> - Financial stress signal
+                        </div>
+                    </div>
+                    <div class="predictor-item">
+                        <div class="pred-number">5️⃣</div>
+                        <div class="pred-content">
+                            <strong>Midterm Scores (11%)</strong> - Early performance
+                        </div>
+                    </div>
+                </div>
+                <p class="predictor-summary">Academic + Engagement = 55% of risk signal</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- PAGE 9: DASHBOARD DEMO -->
+    <section id="dashboard" class="dashboard-demo">
+        <div class="container">
+            <h2 class="section-title">Live System: Three Role-Based Interfaces</h2>
+            
+            <div class="dashboard-section">
+                <h3>Advisor Dashboard (Real Operational View)</h3>
+                <div class="dashboard-image">
+                    <img src="Images/Advisor dashborad.png" alt="Advisor Dashboard" class="full-width-image">
+                </div>
+                <div class="dashboard-components">
+                    <div class="component">
+                        <h4>Top: Risk Status KPI Cards</h4>
+                        <div class="kpi-cards">
+                            <div class="kpi critical">🔴 0 Critical<br><small>Immediate action needed</small></div>
+                            <div class="kpi high">🟠 4 High Risk<br><small>Needs intervention</small></div>
+                            <div class="kpi medium">🟡 33 Medium Risk<br><small>Monitor closely</small></div>
+                            <div class="kpi low">🟢 113 Low Risk<br><small>On track</small></div>
+                        </div>
+                    </div>
+                    <div class="component">
+                        <h4>Middle: Action Queue (4 Students)</h4>
+                        <ul class="action-queue">
+                            <li>👤 Brad Yates - Risk: 73/100 | GPA: 2.24</li>
+                            <li>👤 Diana Ford - Risk: 72/100 | GPA: 2.39</li>
+                            <li>👤 Derrick Lee - Risk: 71/100 | GPA: 2.51</li>
+                            <li>👤 Michael Morris - Risk: 71/100 | GPA: 2.32</li>
+                        </ul>
+                    </div>
+                    <div class="component">
+                        <h4>Bottom: Detailed Metrics</h4>
+                        <div class="metrics-row">
+                            <div>Avg Risk Score: <strong>71.8</strong></div>
+                            <div>Average GPA: <strong>2.36</strong></div>
+                            <div>Actions Needed: <strong>4</strong></div>
+                            <div>First-Gen Students: <strong>0</strong></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="dashboard-section">
+                <h3>Student Directory (360° Profile)</h3>
+                <div class="dashboard-image">
+                    <img src="Images/students Directory.png" alt="Student Directory" class="full-width-image">
+                </div>
+                <div class="directory-details">
+                    <p><strong>Student Search & Filter:</strong> Search by name/ID | Filter by Risk Level | Filter by Classification</p>
+                    <p><strong>Showing:</strong> 150 of 150 students</p>
+                    
+                    <h4>4-Tab Student Profile (Example - Brad Yates):</h4>
+                    <div class="profile-tabs">
+                        <div class="tab-content">
+                            <h5>📚 Academic Tab:</h5>
+                            <ul>
+                                <li>Cumulative GPA: 2.1 🔴</li>
+                                <li>Term GPA: 1.9 🔴</li>
+                                <li>Current Courses: 4 (2 at-risk)</li>
+                                <li>Course Failures: 2 🔴</li>
+                                <li>Academic Probation: YES 🔴</li>
+                            </ul>
+                        </div>
+                        <div class="tab-content">
+                            <h5>📱 Engagement Tab:</h5>
+                            <ul>
+                                <li>LMS Logins (2 wks): 1 🟡</li>
+                                <li>Attendance Rate: 72% 🟡</li>
+                                <li>Assignment Submission: 65% 🟡</li>
+                                <li>Last Activity: Yesterday</li>
+                            </ul>
+                        </div>
+                        <div class="tab-content">
+                            <h5>💰 Financial Tab:</h5>
+                            <ul>
+                                <li>Outstanding Balance: $4,200 🔴</li>
+                                <li>Payment Plan: None 🟡</li>
+                                <li>Financial Aid Status: Pending 🟡</li>
+                                <li>SAP Flag: YES 🔴</li>
+                            </ul>
+                        </div>
+                        <div class="tab-content">
+                            <h5>💭 Wellness Tab:</h5>
+                            <ul>
+                                <li>Counseling Visits: 3 🔴</li>
+                                <li>Severity Level: HIGH 🔴</li>
+                                <li>Mental Health Flags: YES 🔴</li>
+                                <li>Last Contact: 1 week ago</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- PAGE 10: KEY ANALYTICS -->
+    <section id="analytics" class="analytics">
+        <div class="container">
+            <h2 class="section-title">Data-Driven Insights from 10,000 Students</h2>
+            
+            <div class="analytics-section">
+                <h3>1️⃣ Risk Distribution Overview</h3>
+                <div class="chart-container">
+                    <img src="Images/Risk Distribution Overview pie chart.png" alt="Risk Distribution" class="chart-image">
+                </div>
+                <div class="analysis-text">
+                    <p><strong>Total Cohort:</strong> 4 students (pilot)</p>
+                    <p>🔴 <strong>High Risk: 4 (100%)</strong></p>
+                    <p>Status: All require immediate intervention</p>
+                    <h4>Strategic Implications:</h4>
+                    <ul>
+                        <li>All pilot cohort students flagged as high-risk</li>
+                        <li>Validates system's sensitivity for intervention</li>
+                        <li>Enables tracking intervention outcomes</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="analytics-section">
+                <h3>2️⃣ Root Causes Breakdown</h3>
+                <div class="chart-container">
+                    <img src="Images/Root Causes Bar Chart.png" alt="Root Causes" class="chart-image">
+                </div>
+                <table class="root-causes-table">
+                    <thead>
+                        <tr>
+                            <th>Risk Factor</th>
+                            <th>% of Population</th>
+                            <th>Recommended Intervention</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>🔴 Academic</td>
+                            <td>89.1%</td>
+                            <td>Tutoring, study groups, course retake</td>
+                        </tr>
+                        <tr>
+                            <td>🟠 Engagement</td>
+                            <td>71.2%</td>
+                            <td>Peer mentoring, accountability meetings</td>
+                        </tr>
+                        <tr>
+                            <td>🟡 Financial</td>
+                            <td>60.5%</td>
+                            <td>Emergency grants, payment plans, aid</td>
+                        </tr>
+                        <tr>
+                            <td>🟢 Wellness</td>
+                            <td>27.9%</td>
+                            <td>Counseling referral, crisis support</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <p class="key-insight">
+                    <strong>Key Insight:</strong> Academic performance is dominant (89.1%), but multi-factor risk is common 
+                    (average 2.5 factors per student)
+                </p>
+            </div>
+
+            <div class="analytics-section">
+                <h3>3️⃣ Intervention Timing (Critical Window)</h3>
+                <div class="chart-container">
+                    <img src="Images/Intervention Timing Line Chart.png" alt="Intervention Timing" class="chart-image">
+                </div>
+                <div class="timing-analysis">
+                    <p><strong>Peak Interventions Trend:</strong></p>
+                    <ul>
+                        <li>Nov 2-30: 30 interventions (steady state)</li>
+                        <li>Dec 14-28: 31-33 interventions (peak)</li>
+                        <li>Jan 11: Sharp drop to 10 (end of semester)</li>
+                    </ul>
+                    <p><strong>KEY FINDING:</strong> Week 2-3 is CRITICAL intervention window</p>
+                    
+                    <table class="timing-table">
+                        <thead>
+                            <tr>
+                                <th>Intervention Timing</th>
+                                <th>Success Rate & Status</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr class="optimal">
+                                <td>Week 2</td>
+                                <td>87% ✅ - OPTIMAL (Act immediately)</td>
+                            </tr>
+                            <tr>
+                                <td>Week 4</td>
+                                <td>82% - Still effective</td>
+                            </tr>
+                            <tr>
+                                <td>Week 6</td>
+                                <td>76% - Declining effectiveness</td>
+                            </tr>
+                            <tr class="crisis">
+                                <td>Week 12</td>
+                                <td>45% - CRISIS (Too late)</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <p class="gap-highlight">Gap: 42% success difference (Week 2 vs 12)</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- PAGE 11: ETHICS CONSIDERATIONS -->
+    <section id="ethics" class="ethics">
+        <div class="container">
+            <h2 class="section-title">Responsible AI: Privacy, Fairness, Sustainability</h2>
+            
+            <div class="ethics-section">
+                <h3>🔒 Privacy-First Design</h3>
+                <ul class="ethics-list">
+                    <li>✅ Synthetic data (no real PII - all generated)</li>
+                    <li>✅ Zero identifiable information in system</li>
+                    <li>✅ FERPA/GDPR compliance roadmap ready</li>
+                    <li>✅ Role-based access (Advisor sees own caseload, Students see own data)</li>
+                    <li>✅ Encrypted data at rest & in transit</li>
+                </ul>
+            </div>
+
+            <div class="ethics-section">
+                <h3>⚖️ Fairness & Equity</h3>
+                <ul class="ethics-list">
+                    <li>✅ First-generation students intentionally included</li>
+                    <li>✅ International student representation</li>
+                    <li>✅ Non-traditional student profiles</li>
+                    <li>✅ SHAP transparency (explains each prediction)</li>
+                    <li>✅ Regular bias audits by demographic group</li>
+                    <li>✅ Human-in-the-loop (advisors override if needed)</li>
+                </ul>
+            </div>
+
+            <div class="ethics-section">
+                <h3>🌱 Sustainability</h3>
+                <ul class="ethics-list">
+                    <li>✅ Modular, open-source architecture (no vendor lock-in)</li>
+                    <li>✅ Multi-language ready (dashboard i18n support planned)</li>
+                    <li>✅ Compatible with existing systems (LMS, SIS, financial aid)</li>
+                    <li>✅ Continuous improvement cycle (quarterly model retraining)</li>
+                    <li>✅ Scalable from 10K to 50K+ students</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- PAGE 12: RESULTS & IMPACT -->
+    <section id="results" class="results">
+        <div class="container">
+            <h2 class="section-title">What We Delivered & Projected Outcomes</h2>
+            
+            <div class="deliverables">
+                <h3>Deliverables Completed ✅</h3>
+                <table class="deliverables-table">
+                    <thead>
+                        <tr>
+                            <th>Deliverable</th>
+                            <th>Details</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>✅ Model</td>
+                            <td>94.33% accuracy, 93.20% AUC-ROC</td>
+                        </tr>
+                        <tr>
+                            <td>✅ Data</td>
+                            <td>10K synthetic records, 69 features, validated</td>
+                        </tr>
+                        <tr>
+                            <td>✅ Dashboard</td>
+                            <td>Live Streamlit (Advisor/Student/Admin)</td>
+                        </tr>
+                        <tr>
+                            <td>✅ Explainability</td>
+                            <td>SHAP integrated for every prediction</td>
+                        </tr>
+                        <tr>
+                            <td>✅ Documentation</td>
+                            <td>Project charter, user guides, API</td>
+                        </tr>
+                        <tr>
+                            <td>✅ Deployment</td>
+                            <td>Live URL accessible, role-based auth</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <div class="dev-timeline">
+                <h3>Development Timeline</h3>
+                <div class="timeline-grid">
+                    <div class="timeline-block">
+                        <div class="timeline-month">AUG 2025</div>
+                        <div class="timeline-desc">Problem Definition + Literature Review</div>
+                    </div>
+                    <div class="timeline-block">
+                        <div class="timeline-month">SEP 2025</div>
+                        <div class="timeline-desc">Data Architecture + Database Design</div>
+                    </div>
+                    <div class="timeline-block">
+                        <div class="timeline-month">OCT 2025</div>
+                        <div class="timeline-desc">ML Modeling + Dashboard Prototype</div>
+                    </div>
+                    <div class="timeline-block">
+                        <div class="timeline-month">NOV 2025</div>
+                        <div class="timeline-desc">Analytics + Final Optimization + Deployment</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="projected-impact">
+                <h3>Projected Institutional Impact (Pilot Year)</h3>
+                <div class="impact-cards">
+                    <div class="impact-card">
+                        <div class="impact-icon">📈</div>
+                        <div class="impact-title">Retention Improvement</div>
+                        <div class="impact-value">5-8% increase</div>
+                        <p>Example: 22.7% → 17-20% dropout rate</p>
+                    </div>
+                    <div class="impact-card">
+                        <div class="impact-icon">💰</div>
+                        <div class="impact-title">Tuition Recovery</div>
+                        <div class="impact-value">$2-3M annually</div>
+                        <p>Mid-sized university baseline</p>
+                    </div>
+                    <div class="impact-card">
+                        <div class="impact-icon">⏱️</div>
+                        <div class="impact-title">Advisor Efficiency</div>
+                        <div class="impact-value">60% less time</div>
+                        <p>Focus on intervention instead of discovery</p>
+                    </div>
+                    <div class="impact-card">
+                        <div class="impact-icon">🎯</div>
+                        <div class="impact-title">Early Detection</div>
+                        <div class="impact-value">15-20% earlier</div>
+                        <p>Week 2 vs 6-8</p>
+                    </div>
+                    <div class="impact-card">
+                        <div class="impact-icon">👥</div>
+                        <div class="impact-title">Students Impacted</div>
+                        <div class="impact-value">930 high-risk</div>
+                        <p>Targeted support</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- PAGE 13: TEAM, LEARNINGS & RESOURCES -->
+    <section id="team" class="team">
+        <div class="container">
+            <h2 class="section-title">Our Team & Key Takeaways</h2>
+            
+            <div class="team-photo-section">
+                <h3>Meet the 5-Person Team</h3>
+                <div class="team-photo-large">
+                    <img src="Images/Team Group photo.png" alt="HSU Team" class="full-width-image">
+                </div>
+            </div>
+
+            <div class="team-details">
+                <div class="team-member-detail">
+                    <h4>Prajitha Kamasani → Project Lead | Data Engineering</h4>
+                    <p>Designed data pipeline, feature engineering, synthetic data generation</p>
+                </div>
+                <div class="team-member-detail">
+                    <h4>Tarun Elusu → ML Development | Model Optimization</h4>
+                    <p>Built Random Forest classifier, implemented SHAP explainability</p>
+                </div>
+                <div class="team-member-detail">
+                    <h4>Karthik Kavuri → Backend Architecture | Database Design</h4>
+                    <p>Designed 3-layer architecture, built ERD, managed integrations</p>
+                </div>
+                <div class="team-member-detail">
+                    <h4>Divya Gaddam → UI/UX Design | Dashboard Development</h4>
+                    <p>Created Streamlit interfaces, role-based design (Advisor/Student/Admin)</p>
+                </div>
+                <div class="team-member-detail">
+                    <h4>Saikrishna Oruganti → Analytics | Data Validation</h4>
+                    <p>Statistical validation, root cause analysis, insight generation</p>
+                </div>
+            </div>
+
+            <div class="key-learnings">
+                <h3>5 Key Learnings</h3>
+                <div class="learning-cards">
+                    <div class="learning-card">
+                        <div class="learning-number">1</div>
+                        <h4>Data Engineering = 30% of Project</h4>
+                        <p>Good data architecture enabled clean ML pipeline</p>
+                    </div>
+                    <div class="learning-card">
+                        <div class="learning-number">2</div>
+                        <h4>ML + UX Must Align</h4>
+                        <p>SHAP wasn't optional—critical for advisor adoption</p>
+                    </div>
+                    <div class="learning-card">
+                        <div class="learning-number">3</div>
+                        <h4>Architecture Planning Pays Off</h4>
+                        <p>ERD + 3-layer design reduced integration issues</p>
+                    </div>
+                    <div class="learning-card">
+                        <div class="learning-number">4</div>
+                        <h4>Weekly Syncs Multiply Productivity</h4>
+                        <p>Cross-team coordination essential for success</p>
+                    </div>
+                    <div class="learning-card">
+                        <div class="learning-number">5</div>
+                        <h4>User Empathy Drives Real Impact</h4>
+                        <p>Understanding advisor pain points informed features</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="challenges-solutions">
+                <h3>Challenges & Solutions</h3>
+                <table class="challenges-table">
+                    <thead>
+                        <tr>
+                            <th>Challenge</th>
+                            <th>Solution</th>
+                            <th>Outcome</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Overfitting</td>
+                            <td>Feature selection, recall optimization</td>
+                            <td>99% → realistic 94.33%</td>
+                        </tr>
+                        <tr>
+                            <td>Dashboard Clutter</td>
+                            <td>Reorganized into tabs, added filters</td>
+                            <td>Cleaner interface, faster decisions</td>
+                        </tr>
+                        <tr>
+                            <td>Team Silos</td>
+                            <td>Implemented weekly full-team syncs</td>
+                            <td>Better communication, fewer rework</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <div class="resources">
+                <h3>Live Resources & Contact</h3>
+                <div class="resources-grid">
+                    <div class="resource-item">
+                        <strong>🔗 Live Dashboard</strong><br>
+                        <a href="https://hsu-early-warning-system-student-retention-88dlnqbmp2cvxnnjcvy.streamlit.app/" target="_blank">Access System</a>
+                    </div>
+                    <div class="resource-item">
+                        <strong>📧 Team Contact</strong><br>
+                        team@hsu-early-warning.com
+                    </div>
+                    <div class="resource-item">
+                        <strong>💻 GitHub Repository</strong><br>
+                        <a href="https://github.com/karthikkavuri3/HSU-Early-Warning-System-Student-Retention" target="_blank">View Code</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="references">
+                <h3>Key References (APA Format)</h3>
+                <ol class="references-list">
+                    <li>Delena, R. D., Sison, A. M., & Medina, R. P. (2025). Predicting student retention using machine learning: A systematic review. <em>Journal of Educational Data Mining.</em></li>
+                    <li>Afrin, F., Ahmed, S., & Kayes, I. (2025). Explainable AI methods for trustworthy educational systems. <em>IEEE Transactions on Education.</em></li>
+                    <li>Alazmi, M., & Ayub, N. (2025). Enhancing student success prediction through integrated data analytics. <em>Higher Learning Research Communications.</em></li>
+                    <li>Goldrick-Rab, S. (2024). Paying the price: College costs, financial aid, and student success. University of Chicago Press.</li>
+                </ol>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 HSU Early Warning System Team. All rights reserved.</p>
+            <p>Harrisburg University | Aug-Nov 2025</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
